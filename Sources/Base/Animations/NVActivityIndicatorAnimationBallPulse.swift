@@ -30,7 +30,7 @@ import UIKit
 
 class NVActivityIndicatorAnimationBallPulse: NVActivityIndicatorAnimationDelegate {
     func setUpAnimation(in layer: CALayer, size: CGSize, color: UIColor) {
-        let circleSpacing: CGFloat = 2
+        let circleSpacing: CGFloat = 6
         let circleSize: CGFloat = (size.width - 2 * circleSpacing) / 3
         let x: CGFloat = (layer.bounds.size.width - size.width) / 2
         let y: CGFloat = (layer.bounds.size.height - circleSize) / 2
